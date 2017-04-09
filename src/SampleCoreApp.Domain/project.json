@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+      }
+    }
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1",
+      "type": "platform"
+    },
+    "Microsoft.EntityFrameworkCore": "1.1.1",
+    "Microsoft.EntityFrameworkCore.Relational": "1.1.1",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
+    "Microsoft.EntityFrameworkCore.Design": "1.1.1"
+    
+  },
+
+  "tools": {
+    "Microsoft.EntityFrameworkCore.Tools": "1.1.0",
+    "Microsoft.EntityFrameworkCore.Tools.DotNet": "1.0.0"
+  }
+}
