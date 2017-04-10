@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SampleCoreApp.Domain;
+using System.Linq.Dynamic.Core;
 
 namespace SampleCoreApp.Api.Controllers
 {
@@ -28,7 +29,7 @@ namespace SampleCoreApp.Api.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            var samurais = _context.Samurais.ToList();
+            var names = _context.Samurais.Select("name").ToDynamicList<string>();
 
             return "value";
         }

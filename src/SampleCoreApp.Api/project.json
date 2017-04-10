@@ -17,7 +17,8 @@
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.1",
     "Microsoft.EntityFrameworkCore.Design": "1.1.1",
     "Swashbuckle.AspNetCore": "1.0.0-rc3",
-    "SampleCoreApp.Domain": "1.0.0-*"
+    "SampleCoreApp.Domain": "1.0.0-*",
+    "System.Linq.Dynamic.Core": "1.0.6.9"
   },
 
   "tools": {
